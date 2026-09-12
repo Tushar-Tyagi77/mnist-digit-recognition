@@ -176,7 +176,7 @@ predictButton.addEventListener(
                 try {
 
                     const response = await fetch(
-                        "http://127.0.0.1:8000/predict",
+                        "https://mnist-digit-recognition-7p0z.onrender.com/predict",
                         {
                             method: "POST",
                             body: formData
